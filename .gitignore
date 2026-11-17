@@ -62,3 +62,8 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- solution: external public data and local caches (never committed) --------------------------
+external/
+solution/cache/
+solution/output/

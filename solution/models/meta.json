@@ -1,0 +1,51 @@
+{
+  "alive_matches": [
+    "metrica/metrica1",
+    "metrica/metrica2",
+    "metrica/metrica3",
+    "dfl/J03WMX",
+    "dfl/J03WN1",
+    "dfl/J03WOH",
+    "dfl/J03WPY"
+  ],
+  "team_matches": [
+    "metrica/metrica1",
+    "metrica/metrica2",
+    "metrica/metrica3",
+    "dfl/J03WMX",
+    "dfl/J03WN1",
+    "dfl/J03WOH",
+    "dfl/J03WPY"
+  ],
+  "train_seeds": [
+    11,
+    12
+  ],
+  "train_visible_mean_s": 45.0,
+  "ball_noise": {
+    "smooth_frames": 6.0,
+    "drift_m": 0.55,
+    "drift_tau_s": 2.0,
+    "jitter_m": 0.003
+  },
+  "lightgbm": {
+    "objective": "binary",
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 300,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "verbose": -1,
+    "seed": 0,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 1
+  },
+  "rounds": {
+    "alive": 300,
+    "team": 400,
+    "shape": 200
+  }
+}

@@ -1,0 +1,5 @@
+# Pinned to the versions the submission was produced with (Python 3.12).
+numpy==2.5.4
+pandas==3.1.0
+lightgbm==4.5.0
+scipy==1.18.1

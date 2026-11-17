@@ -1,5 +1,11 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+> **This fork contains a submission.** The solution lives in [`solution/`](solution/) —
+> start with [`solution/README.md`](solution/README.md) (how to run it) and
+> [`solution/TECHNICAL_DOCUMENT.md`](solution/TECHNICAL_DOCUMENT.md) (how it works).
+> `python solution/run.py` regenerates the submitted file from the provided data.
+> Everything below is the organisers' original README, unchanged.
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 
